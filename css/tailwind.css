@@ -1,0 +1,30 @@
+
+body{
+    background-image: url(/img/Slogo.png);
+    background-repeat: no-repeat;
+    background-position: top right;
+    background-size: 400px;
+    background-attachment: fixed;
+}
+
+@media(max-width:768px){
+    body{
+        background-position: 100px right;
+        background-size: 100px;
+        background-attachment: inherit;
+    } 
+}
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer components{
+.killsLabel{
+    @apply 
+    tracking-wider uppercase text-sm font-semibold rounded-md py-1 m-2 inline-block px-3 border transition-all;
+}
+.btn{
+    @apply text-xs text-center text-white font-semibold uppercase block tracking-wider px-5  py-2 shadow-md rounded-lg transform transition;
+}
+}
