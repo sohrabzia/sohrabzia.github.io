@@ -20,7 +20,7 @@ body{
 @tailwind utilities;
 
 @layer components{
-.killsLabel{
+.skillsLabel{
     @apply 
     tracking-wider uppercase text-sm font-semibold rounded-md py-1 m-2 inline-block px-3 border transition-all;
 }
