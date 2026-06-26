@@ -1,0 +1,31 @@
+# Sohrab Zia
+
+> Web & mobile UI/UX designer based in Kuwait with 10+ years of experience crafting user-centered, responsive interfaces for web and mobile products. Available for freelance work and collaborations worldwide.
+
+## About
+
+Sohrab Zia (also written Soharab Zia) is a UI/UX and product designer specializing in web and mobile interface design. Work spans user experience design, user interface design, design systems, prototyping, and front-end implementation. Based in Kuwait, working with clients worldwide.
+
+- Role: Web & Mobile UI/UX Designer
+- Location: Kuwait (remote / worldwide)
+- Experience: 10+ years, 50+ projects
+- Focus: UI design, UX design, web design, mobile app design, design systems, responsive interfaces
+- Tools: Figma, React, and a broad modern design + front-end toolkit
+
+## Work
+
+- Selected projects and case studies: https://sohrabzia.github.io/ (see "Selected work")
+- Individual project pages: https://sohrabzia.github.io/project/{id}
+
+## Links
+
+- Portfolio: https://sohrabzia.github.io/
+- Behance: https://www.behance.net/sohrabzia
+- Dribbble: https://dribbble.com/sohrabzia
+- CodePen: https://codepen.io/sohrabzia
+- LinkedIn: https://www.linkedin.com/in/soharabzia
+- GitHub: https://github.com/sohrabzia
+
+## Contact
+
+- Email: ziasohrab@gmail.com
