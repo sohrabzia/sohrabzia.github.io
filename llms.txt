@@ -1,30 +1,50 @@
 # Sohrab Zia
 
-> Web & mobile UI/UX designer based in Kuwait with 10+ years of experience crafting user-centered, responsive interfaces for web and mobile products. Available for freelance work and collaborations worldwide.
+> Product designer in Kuwait with 14+ years across web and mobile, combining product thinking, UI/UX craft, and front-end implementation.
 
-## About
+## Positioning
 
-Sohrab Zia (also written Soharab Zia) is a UI/UX and product designer specializing in web and mobile interface design. Work spans user experience design, user interface design, design systems, prototyping, and front-end implementation. Based in Kuwait, working with clients worldwide.
+Sohrab Zia is a Product Designer who works close to implementation. His work spans product thinking, information architecture, user flows, interface design, prototyping, design systems, responsive web design, and front-end implementation.
 
-- Role: Web & Mobile UI/UX Designer
-- Location: Kuwait (remote / worldwide)
-- Experience: 10+ years, 50+ projects
-- Focus: UI design, UX design, web design, mobile app design, design systems, responsive interfaces
-- Tools: Figma, React, and a broad modern design + front-end toolkit
+- Role: Product Designer
+- Location: Kuwait
+- Experience: 14+ years across web and mobile
+- Differentiator: Product design craft supported by hands-on front-end fluency
+- Current employer: Diyar United Company
+- Current title: Web / Graphic Designer
+- Current tenure: June 2015 to Present
 
-## Work
+## Flagship case study: Hayakom
 
-- Selected projects and case studies: https://sohrabzia.github.io/ (see "Selected work")
-- Individual project pages: https://sohrabzia.github.io/project/{id}
+Hayakom is the official Kuwait Public Authority for Sport app and Sohrab's flagship product design case study.
 
-## Links
+- Role: Lead Product Designer
+- Challenge: Unify live sports, scheduled events, tickets, teams, players, offers, and tourism in one bilingual mobile product
+- Scope: Discovery architecture, live match and event flows, Arabic and English RTL/LTR design, reusable components, and design handoff
+- Key decisions: Prioritize live and upcoming content by time; create reusable match and event states; keep booking and tourism connected without competing with core sports discovery
+- Shipped: Home and discovery, fixtures, match details, team and player views, ticket entry points, bilingual layouts, and a reusable visual system
+- Outcome: One coherent official app that can receive regular content updates across Kuwait's national sports and cultural calendar
+
+## Core skills
+
+- Design: UI/UX Design, Figma, Adobe Creative Suite, Responsive Web Design
+- Front end: HTML, CSS, JavaScript, Bootstrap, jQuery
+- Platforms: SharePoint, Microsoft Power Apps, Visual Studio, Microsoft Office
+
+## Portfolio and CV
 
 - Portfolio: https://sohrabzia.github.io/
+- Product Designer CV: https://sohrabzia.github.io/Sohrab-Zia-Product-Designer-CV.pdf
+- Selected projects: https://sohrabzia.github.io/#work
+- Individual case studies: https://sohrabzia.github.io/project/{id}
+
+## Professional profiles
+
+- LinkedIn: https://www.linkedin.com/in/soharabzia
+- GitHub: https://github.com/sohrabzia
 - Behance: https://www.behance.net/sohrabzia
 - Dribbble: https://dribbble.com/sohrabzia
 - CodePen: https://codepen.io/sohrabzia
-- LinkedIn: https://www.linkedin.com/in/soharabzia
-- GitHub: https://github.com/sohrabzia
 
 ## Contact
 

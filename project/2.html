@@ -4,8 +4,28 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <meta name="google-site-verification" content="hFYo8syayFD4JVxPr30gDl809K05EtiRpKzjOxGAcaY" />
-    <title>Art Productions  — Sohrab Zia</title>
+    <meta
+      name="google-site-verification"
+      content="hFYo8syayFD4JVxPr30gDl809K05EtiRpKzjOxGAcaY"
+    />
+    <script>
+      (function () {
+        try {
+          var savedTheme = window.localStorage.getItem("theme");
+          var prefersDark = window.matchMedia(
+            "(prefers-color-scheme: dark)",
+          ).matches;
+          if (savedTheme === "dark" || (!savedTheme && prefersDark)) {
+            document.documentElement.classList.add("dark");
+          }
+        } catch (error) {
+          if (window.matchMedia("(prefers-color-scheme: dark)").matches) {
+            document.documentElement.classList.add("dark");
+          }
+        }
+      })();
+    </script>
+    <title>Art Productions Website | Sohrab Zia</title>
 
     <link rel="canonical" href="https://sohrabzia.github.io/project/2" />
 
@@ -29,31 +49,53 @@
       })(window.location);
     </script>
 
-    <link rel="apple-touch-icon" sizes="180x180" href="/img/apple-touch-icon.png" />
-    <link rel="icon" type="image/png" sizes="32x32" href="/img/favicon-32x32.png" />
-    <link rel="icon" type="image/png" sizes="16x16" href="/img/favicon-16x16.png" />
+    <link
+      rel="apple-touch-icon"
+      sizes="180x180"
+      href="/img/apple-touch-icon.png"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="/img/favicon-32x32.png"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="16x16"
+      href="/img/favicon-16x16.png"
+    />
     <link rel="manifest" href="/img/site.webmanifest" />
     <meta name="msapplication-TileColor" content="#bc8557" />
-    <meta name="theme-color" content="#FAF8F4" media="(prefers-color-scheme: light)" />
-    <meta name="theme-color" content="#0F0F0E" media="(prefers-color-scheme: dark)" />
+    <meta
+      name="theme-color"
+      content="#FAF8F4"
+      media="(prefers-color-scheme: light)"
+    />
+    <meta
+      name="theme-color"
+      content="#0F0F0E"
+      media="(prefers-color-scheme: dark)"
+    />
 
-    <meta name="description" content="I designed the full UI/UX for the Art Productions website, creating a clean, modern, and visually polished interface with consistent iconography and a professio" />
+    <meta name="description" content="A polished, responsive website designed in Figma and translated into production-ready HTML and CSS." />
     <meta name="robots" content="index, follow" />
 
     <!-- Open Graph -->
     <meta property="og:type" content="website" />
     <meta property="og:site_name" content="Sohrab Zia" />
     <meta property="og:url" content="https://sohrabzia.github.io/project/2" />
-    <meta property="og:title" content="Art Productions  — Sohrab Zia" />
-    <meta property="og:description" content="I designed the full UI/UX for the Art Productions website, creating a clean, modern, and visually polished interface with consistent iconography and a professio" />
-    <meta property="og:image" content="https://vbvfxqtmoebzzrjoualw.supabase.co/storage/v1/object/public/PortfolioImages/0.32283331849012187.png" />
+    <meta property="og:title" content="Art Productions Website | Sohrab Zia" />
+    <meta property="og:description" content="A polished, responsive website designed in Figma and translated into production-ready HTML and CSS." />
+    <meta property="og:image" content="https://sohrabzia.github.io/projects/2/cover-1920.webp" />
     <meta property="og:image:alt" content="Sohrab Zia portfolio" />
 
     <!-- Twitter -->
     <meta name="twitter:card" content="summary_large_image" />
-    <meta name="twitter:title" content="Art Productions  — Sohrab Zia" />
-    <meta name="twitter:description" content="I designed the full UI/UX for the Art Productions website, creating a clean, modern, and visually polished interface with consistent iconography and a professio" />
-    <meta name="twitter:image" content="https://vbvfxqtmoebzzrjoualw.supabase.co/storage/v1/object/public/PortfolioImages/0.32283331849012187.png" />
+    <meta name="twitter:title" content="Art Productions Website | Sohrab Zia" />
+    <meta name="twitter:description" content="A polished, responsive website designed in Figma and translated into production-ready HTML and CSS." />
+    <meta name="twitter:image" content="https://sohrabzia.github.io/projects/2/cover-1920.webp" />
 
     <link
       rel="preload"
@@ -77,9 +119,8 @@
           "@type": "Person",
           "@id": "https://sohrabzia.github.io/#person",
           "name": "Sohrab Zia",
-          "alternateName": "Soharab Zia",
-          "jobTitle": "Web & Mobile UI/UX Designer",
-          "description": "Web and mobile UI/UX designer based in Kuwait with 10+ years of experience.",
+          "jobTitle": "Product Designer",
+          "description": "Product designer in Kuwait with 14+ years across web and mobile, combining product thinking, UI/UX craft, and front-end implementation.",
           "url": "https://sohrabzia.github.io/",
           "email": "ziasohrab@gmail.com",
           "image": "https://sohrabzia.github.io/img/Slogo.png",
@@ -91,15 +132,21 @@
             "https://www.behance.net/sohrabzia",
             "https://dribbble.com/sohrabzia",
             "https://codepen.io/sohrabzia",
-            "https://www.linkedin.com/in/soharabzia"
+            "https://www.linkedin.com/in/soharabzia",
+            "https://github.com/sohrabzia"
           ],
           "knowsAbout": [
+            "Product Design",
             "User Interface Design",
             "User Experience Design",
-            "Web Design",
-            "Mobile App Design",
+            "Responsive Web Design",
             "Figma",
-            "React"
+            "Adobe Creative Suite",
+            "HTML",
+            "CSS",
+            "JavaScript",
+            "SharePoint",
+            "Microsoft Power Apps"
           ]
         },
         {
@@ -107,8 +154,8 @@
           "@type": "WebSite",
           "@id": "https://sohrabzia.github.io/#website",
           "url": "https://sohrabzia.github.io/",
-          "name": "Sohrab Zia — Portfolio",
-          "description": "Portfolio of Sohrab Zia, web and mobile UI/UX designer based in Kuwait.",
+          "name": "Sohrab Zia | Product Designer Portfolio",
+          "description": "Product design case studies and implementation-focused work by Sohrab Zia in Kuwait.",
           "author": { "@id": "https://sohrabzia.github.io/#person" },
           "inLanguage": "en"
         },
@@ -116,17 +163,19 @@
           "@context": "https://schema.org",
           "@type": "ProfilePage",
           "url": "https://sohrabzia.github.io/",
-          "name": "Sohrab Zia — Portfolio",
+          "name": "Sohrab Zia | Product Designer Portfolio",
           "isPartOf": { "@id": "https://sohrabzia.github.io/#website" },
           "about": { "@id": "https://sohrabzia.github.io/#person" },
           "mainEntity": { "@id": "https://sohrabzia.github.io/#person" }
         }
       ]
     </script>
-    <script type="module" crossorigin src="/js/index-DVvNxKEb.js"></script>
-    <link rel="stylesheet" crossorigin href="/css/index-BAarDASO.css">
-  <script type="application/ld+json">[{"@context":"https://schema.org","@type":"CreativeWork","name":"Art Productions ","description":"I designed the full UI/UX for the Art Productions website, creating a clean, modern, and visually polished interface with consistent iconography and a professio","image":"https://vbvfxqtmoebzzrjoualw.supabase.co/storage/v1/object/public/PortfolioImages/0.32283331849012187.png","url":"https://sohrabzia.github.io/project/2","dateCreated":"2025","creator":{"@id":"https://sohrabzia.github.io/#person"}},{"@context":"https://schema.org","@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"Home","item":"https://sohrabzia.github.io/"},{"@type":"ListItem","position":2,"name":"Art Productions ","item":"https://sohrabzia.github.io/project/2"}]}]</script></head>
-  <body class="bg-[#FAF8F4] font-sans text-[#0F0F0E] antialiased dark:bg-[#0F0F0E] dark:text-[#FAF8F4]">
+    <script type="module" crossorigin src="/js/index-Dkbh2w_W.js"></script>
+    <link rel="stylesheet" crossorigin href="/css/index-EGZZpLK1.css">
+  <script type="application/ld+json">[{"@context":"https://schema.org","@type":"CreativeWork","name":"Art Productions Website","description":"A polished, responsive website designed in Figma and translated into production-ready HTML and CSS.","image":"https://sohrabzia.github.io/projects/2/cover-1920.webp","url":"https://sohrabzia.github.io/project/2","dateCreated":"2025","genre":"Web Design and Frontend","creator":{"@id":"https://sohrabzia.github.io/#person"}},{"@context":"https://schema.org","@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"Home","item":"https://sohrabzia.github.io/"},{"@type":"ListItem","position":2,"name":"Art Productions Website","item":"https://sohrabzia.github.io/project/2"}]}]</script></head>
+  <body
+    class="bg-[#FAF8F4] font-sans text-[#0F0F0E] antialiased dark:bg-[#0F0F0E] dark:text-[#FAF8F4]"
+  >
     <div id="root"></div>
 
     <!--
@@ -135,7 +184,7 @@
       Googlebot get the React app instead, so this never affects the live UI.
       The Selected-work list is filled with project links at build by prerender.
     -->
-    <noscript><div style="max-width:48rem;margin:0 auto;padding:2rem 1rem;font-family:system-ui,-apple-system,sans-serif;line-height:1.6;color:#0F0F0E"><p><a href="/">Home</a> &rsaquo; Art Productions </p><h1>Art Productions </h1><p>I designed the full UI/UX for the Art Productions website, creating a clean, modern, and visually polished interface with consistent iconography and a professional layout. The design was fully built in Figma, then translated into responsive, production-ready HTML/CSS. I optimized the structure for fast loading, accessibility, and SEO, ensuring smooth performance across all devices. The final result is a minimal, easy-to-navigate site that enhances brand credibility and clearly presents their services.</p><p><strong>Year:</strong> 2025 &middot; <strong>Tools:</strong> Bootstrap, Figma, HTML, Javascript, Jquery, UI/UX</p><p><a href="https://www.behance.net/gallery/113944565/Art-Productions-Website" rel="noopener noreferrer">View live project</a></p><p><a href="/">&larr; Back to all projects</a></p></div></noscript>
+    <noscript><main style="max-width:48rem;margin:0 auto;padding:2rem 1rem;font-family:Arial,system-ui,sans-serif;line-height:1.6;color:#0F0F0E"><p><a href="/">Home</a> / Art Productions Website</p><h1>Art Productions Website</h1><p>A polished, responsive website designed in Figma and translated into production-ready HTML and CSS.</p><p><strong>Discipline:</strong> Web Design and Frontend | <strong>Year:</strong> 2025 | <strong>Role:</strong> UI/UX Designer and Frontend Developer</p><section><h2>Overview</h2><p>I designed the full interface in Figma and implemented a responsive, accessible front end with a clear service hierarchy.</p></section><p><a href="https://www.behance.net/gallery/113944565/Art-Productions-Website" rel="noopener noreferrer">View live project</a></p><p><a href="/">Back to all projects</a></p></main></noscript>
 
   </body>
 </html>

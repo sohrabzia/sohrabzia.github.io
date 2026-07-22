@@ -4,8 +4,28 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <meta name="google-site-verification" content="hFYo8syayFD4JVxPr30gDl809K05EtiRpKzjOxGAcaY" />
-    <title>KOC Corporate Website - Frontend Build — Sohrab Zia</title>
+    <meta
+      name="google-site-verification"
+      content="hFYo8syayFD4JVxPr30gDl809K05EtiRpKzjOxGAcaY"
+    />
+    <script>
+      (function () {
+        try {
+          var savedTheme = window.localStorage.getItem("theme");
+          var prefersDark = window.matchMedia(
+            "(prefers-color-scheme: dark)",
+          ).matches;
+          if (savedTheme === "dark" || (!savedTheme && prefersDark)) {
+            document.documentElement.classList.add("dark");
+          }
+        } catch (error) {
+          if (window.matchMedia("(prefers-color-scheme: dark)").matches) {
+            document.documentElement.classList.add("dark");
+          }
+        }
+      })();
+    </script>
+    <title>KOC Corporate Website - Frontend Build | Sohrab Zia</title>
 
     <link rel="canonical" href="https://sohrabzia.github.io/project/7" />
 
@@ -29,31 +49,53 @@
       })(window.location);
     </script>
 
-    <link rel="apple-touch-icon" sizes="180x180" href="/img/apple-touch-icon.png" />
-    <link rel="icon" type="image/png" sizes="32x32" href="/img/favicon-32x32.png" />
-    <link rel="icon" type="image/png" sizes="16x16" href="/img/favicon-16x16.png" />
+    <link
+      rel="apple-touch-icon"
+      sizes="180x180"
+      href="/img/apple-touch-icon.png"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="/img/favicon-32x32.png"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="16x16"
+      href="/img/favicon-16x16.png"
+    />
     <link rel="manifest" href="/img/site.webmanifest" />
     <meta name="msapplication-TileColor" content="#bc8557" />
-    <meta name="theme-color" content="#FAF8F4" media="(prefers-color-scheme: light)" />
-    <meta name="theme-color" content="#0F0F0E" media="(prefers-color-scheme: dark)" />
+    <meta
+      name="theme-color"
+      content="#FAF8F4"
+      media="(prefers-color-scheme: light)"
+    />
+    <meta
+      name="theme-color"
+      content="#0F0F0E"
+      media="(prefers-color-scheme: dark)"
+    />
 
-    <meta name="description" content="Frontend implementation of Kuwait Oil Company&#39;s corporate website (kockw.com). Translated provided designs into a high-performance, accessible, fully responsive" />
+    <meta name="description" content="Frontend implementation of Kuwait Oil Company&#39;s bilingual corporate website, translated from supplied designs into a responsive and accessible production experi" />
     <meta name="robots" content="index, follow" />
 
     <!-- Open Graph -->
     <meta property="og:type" content="website" />
     <meta property="og:site_name" content="Sohrab Zia" />
     <meta property="og:url" content="https://sohrabzia.github.io/project/7" />
-    <meta property="og:title" content="KOC Corporate Website - Frontend Build — Sohrab Zia" />
-    <meta property="og:description" content="Frontend implementation of Kuwait Oil Company&#39;s corporate website (kockw.com). Translated provided designs into a high-performance, accessible, fully responsive" />
-    <meta property="og:image" content="https://vbvfxqtmoebzzrjoualw.supabase.co/storage/v1/object/public/PortfolioImages/projects/7/1777638581846-kockw.jpg" />
+    <meta property="og:title" content="KOC Corporate Website - Frontend Build | Sohrab Zia" />
+    <meta property="og:description" content="Frontend implementation of Kuwait Oil Company&#39;s bilingual corporate website, translated from supplied designs into a responsive and accessible production experi" />
+    <meta property="og:image" content="https://sohrabzia.github.io/projects/7/cover-1500.webp" />
     <meta property="og:image:alt" content="Sohrab Zia portfolio" />
 
     <!-- Twitter -->
     <meta name="twitter:card" content="summary_large_image" />
-    <meta name="twitter:title" content="KOC Corporate Website - Frontend Build — Sohrab Zia" />
-    <meta name="twitter:description" content="Frontend implementation of Kuwait Oil Company&#39;s corporate website (kockw.com). Translated provided designs into a high-performance, accessible, fully responsive" />
-    <meta name="twitter:image" content="https://vbvfxqtmoebzzrjoualw.supabase.co/storage/v1/object/public/PortfolioImages/projects/7/1777638581846-kockw.jpg" />
+    <meta name="twitter:title" content="KOC Corporate Website - Frontend Build | Sohrab Zia" />
+    <meta name="twitter:description" content="Frontend implementation of Kuwait Oil Company&#39;s bilingual corporate website, translated from supplied designs into a responsive and accessible production experi" />
+    <meta name="twitter:image" content="https://sohrabzia.github.io/projects/7/cover-1500.webp" />
 
     <link
       rel="preload"
@@ -77,9 +119,8 @@
           "@type": "Person",
           "@id": "https://sohrabzia.github.io/#person",
           "name": "Sohrab Zia",
-          "alternateName": "Soharab Zia",
-          "jobTitle": "Web & Mobile UI/UX Designer",
-          "description": "Web and mobile UI/UX designer based in Kuwait with 10+ years of experience.",
+          "jobTitle": "Product Designer",
+          "description": "Product designer in Kuwait with 14+ years across web and mobile, combining product thinking, UI/UX craft, and front-end implementation.",
           "url": "https://sohrabzia.github.io/",
           "email": "ziasohrab@gmail.com",
           "image": "https://sohrabzia.github.io/img/Slogo.png",
@@ -91,15 +132,21 @@
             "https://www.behance.net/sohrabzia",
             "https://dribbble.com/sohrabzia",
             "https://codepen.io/sohrabzia",
-            "https://www.linkedin.com/in/soharabzia"
+            "https://www.linkedin.com/in/soharabzia",
+            "https://github.com/sohrabzia"
           ],
           "knowsAbout": [
+            "Product Design",
             "User Interface Design",
             "User Experience Design",
-            "Web Design",
-            "Mobile App Design",
+            "Responsive Web Design",
             "Figma",
-            "React"
+            "Adobe Creative Suite",
+            "HTML",
+            "CSS",
+            "JavaScript",
+            "SharePoint",
+            "Microsoft Power Apps"
           ]
         },
         {
@@ -107,8 +154,8 @@
           "@type": "WebSite",
           "@id": "https://sohrabzia.github.io/#website",
           "url": "https://sohrabzia.github.io/",
-          "name": "Sohrab Zia — Portfolio",
-          "description": "Portfolio of Sohrab Zia, web and mobile UI/UX designer based in Kuwait.",
+          "name": "Sohrab Zia | Product Designer Portfolio",
+          "description": "Product design case studies and implementation-focused work by Sohrab Zia in Kuwait.",
           "author": { "@id": "https://sohrabzia.github.io/#person" },
           "inLanguage": "en"
         },
@@ -116,17 +163,19 @@
           "@context": "https://schema.org",
           "@type": "ProfilePage",
           "url": "https://sohrabzia.github.io/",
-          "name": "Sohrab Zia — Portfolio",
+          "name": "Sohrab Zia | Product Designer Portfolio",
           "isPartOf": { "@id": "https://sohrabzia.github.io/#website" },
           "about": { "@id": "https://sohrabzia.github.io/#person" },
           "mainEntity": { "@id": "https://sohrabzia.github.io/#person" }
         }
       ]
     </script>
-    <script type="module" crossorigin src="/js/index-DVvNxKEb.js"></script>
-    <link rel="stylesheet" crossorigin href="/css/index-BAarDASO.css">
-  <script type="application/ld+json">[{"@context":"https://schema.org","@type":"CreativeWork","name":"KOC Corporate Website - Frontend Build","description":"Frontend implementation of Kuwait Oil Company's corporate website (kockw.com). Translated provided designs into a high-performance, accessible, fully responsive","image":"https://vbvfxqtmoebzzrjoualw.supabase.co/storage/v1/object/public/PortfolioImages/projects/7/1777638581846-kockw.jpg","url":"https://sohrabzia.github.io/project/7","dateCreated":"2020","genre":"Frontend Development · Responsive · Accessibility","creator":{"@id":"https://sohrabzia.github.io/#person"}},{"@context":"https://schema.org","@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"Home","item":"https://sohrabzia.github.io/"},{"@type":"ListItem","position":2,"name":"KOC Corporate Website - Frontend Build","item":"https://sohrabzia.github.io/project/7"}]}]</script></head>
-  <body class="bg-[#FAF8F4] font-sans text-[#0F0F0E] antialiased dark:bg-[#0F0F0E] dark:text-[#FAF8F4]">
+    <script type="module" crossorigin src="/js/index-Dkbh2w_W.js"></script>
+    <link rel="stylesheet" crossorigin href="/css/index-EGZZpLK1.css">
+  <script type="application/ld+json">[{"@context":"https://schema.org","@type":"CreativeWork","name":"KOC Corporate Website - Frontend Build","description":"Frontend implementation of Kuwait Oil Company's bilingual corporate website, translated from supplied designs into a responsive and accessible production experi","image":"https://sohrabzia.github.io/projects/7/cover-1500.webp","url":"https://sohrabzia.github.io/project/7","dateCreated":"2020","genre":"Frontend Development, Responsive, Accessibility","creator":{"@id":"https://sohrabzia.github.io/#person"}},{"@context":"https://schema.org","@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"Home","item":"https://sohrabzia.github.io/"},{"@type":"ListItem","position":2,"name":"KOC Corporate Website - Frontend Build","item":"https://sohrabzia.github.io/project/7"}]}]</script></head>
+  <body
+    class="bg-[#FAF8F4] font-sans text-[#0F0F0E] antialiased dark:bg-[#0F0F0E] dark:text-[#FAF8F4]"
+  >
     <div id="root"></div>
 
     <!--
@@ -135,7 +184,7 @@
       Googlebot get the React app instead, so this never affects the live UI.
       The Selected-work list is filled with project links at build by prerender.
     -->
-    <noscript><div style="max-width:48rem;margin:0 auto;padding:2rem 1rem;font-family:system-ui,-apple-system,sans-serif;line-height:1.6;color:#0F0F0E"><p><a href="/">Home</a> &rsaquo; KOC Corporate Website - Frontend Build</p><h1>KOC Corporate Website - Frontend Build</h1><p>Frontend implementation of Kuwait Oil Company&#39;s corporate website (kockw.com). Translated provided designs into a high-performance, accessible, fully responsive front-end across English and Arabic.</p><p><strong>Discipline:</strong> Frontend Development · Responsive · Accessibility &middot; <strong>Year:</strong> 2020 &middot; <strong>Client:</strong> Kuwait Oil Company (KOC) &middot; <strong>Role:</strong> Frontend Developer — design provided by client team &middot; <strong>Tools:</strong> Adobe Creative Suite, Media Queries, Figma, HTML, Javascript</p><p><a href="https://www.kockw.com/" rel="noopener noreferrer">View live project</a></p><p><a href="/">&larr; Back to all projects</a></p></div></noscript>
+    <noscript><main style="max-width:48rem;margin:0 auto;padding:2rem 1rem;font-family:Arial,system-ui,sans-serif;line-height:1.6;color:#0F0F0E"><p><a href="/">Home</a> / KOC Corporate Website - Frontend Build</p><h1>KOC Corporate Website - Frontend Build</h1><p>Frontend implementation of Kuwait Oil Company&#39;s bilingual corporate website, translated from supplied designs into a responsive and accessible production experience.</p><p><strong>Discipline:</strong> Frontend Development, Responsive, Accessibility | <strong>Year:</strong> 2020 | <strong>Client:</strong> Kuwait Oil Company (KOC) | <strong>Role:</strong> Frontend Developer, design supplied by the client team</p><section><h2>Overview</h2><p>I translated the client&#39;s visual system into a production bilingual website with responsive templates, semantic markup, keyboard-reachable navigation, and CMS-ready content modules.</p></section><p><a href="https://www.kockw.com/" rel="noopener noreferrer">View live project</a></p><p><a href="/">Back to all projects</a></p></main></noscript>
 
   </body>
 </html>
