@@ -1,4 +1,4 @@
-import{r as _o,j as gc,t as _c}from"./index-DAhOmMnS.js";/**
+import{r as _o,j as gc,t as _c}from"./index-Bc1NxKf7.js";/**
  * @license
  * Copyright 2010-2026 Three.js Authors
  * SPDX-License-Identifier: MIT
