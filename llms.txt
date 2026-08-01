@@ -33,18 +33,18 @@ Hayakom is the official Kuwait Public Authority for Sport app and Sohrab's flags
 
 ## Portfolio and CV
 
-- Portfolio: https://sohrabzia.github.io/
-- Product Designer CV: https://sohrabzia.github.io/Sohrab-Zia-Product-Designer-CV.pdf
-- Selected projects: https://sohrabzia.github.io/#work
-- Individual case studies: https://sohrabzia.github.io/project/{id}
+- [Portfolio homepage](https://sohrabzia.github.io/)
+- [Product Designer CV (PDF)](https://sohrabzia.github.io/Sohrab-Zia-Product-Designer-CV.pdf)
+- [Selected projects](https://sohrabzia.github.io/#work)
+- Individual case studies use `https://sohrabzia.github.io/project/{id}`
 
 ## Professional profiles
 
-- LinkedIn: https://www.linkedin.com/in/soharabzia
-- GitHub: https://github.com/sohrabzia
-- Behance: https://www.behance.net/sohrabzia
-- Dribbble: https://dribbble.com/sohrabzia
-- CodePen: https://codepen.io/sohrabzia
+- [LinkedIn](https://www.linkedin.com/in/soharabzia)
+- [GitHub](https://github.com/sohrabzia)
+- [Behance](https://www.behance.net/sohrabzia)
+- [Dribbble](https://dribbble.com/sohrabzia)
+- [CodePen](https://codepen.io/sohrabzia)
 
 ## Contact
 
